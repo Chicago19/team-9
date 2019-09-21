@@ -2,5 +2,6 @@
 
 .purple-box{
 	background-color : var(--light-purple);
-	color: var(--lightest-purple);
+	/*color: var(--lightest-purple);*/
+	color: white;
 }
