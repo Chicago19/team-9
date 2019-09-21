@@ -24,7 +24,7 @@ export default class Calendar extends React.Component {
                 </tr>
             </thead>
             <tbody>
-                event.map(())
+                {/* event.map(()) */}
                 <tr>
                     <td>1</td>
                     <td>Mark</td>
