@@ -6,8 +6,9 @@ import '../css/home.css';
 class Home extends Component {
 
   render() {
+    // log src="https://www.chicagocac.org/wp-content/uploads/2015/04/ccac-header-logo.png"
     return (
-      <Container fluid style={{ height: '100vh' }}>
+      <Container fluid className='home-container'>
         <Row id='title-row'>
           <Col sm={{ size: 8, offset: 2 }}>
             <h1 className='cca-head'>Chicago Children's Advocacy Center</h1>
