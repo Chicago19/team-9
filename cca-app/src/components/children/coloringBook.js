@@ -10,6 +10,7 @@ class ColoringBook extends Component {
       <Container>
         <Row className='title-row'>
           <Col sm={{ size: 8, offset: 2 }}>
+<<<<<<< HEAD
             <h1 style={{ textAlign: 'center' }}>Chicago Children's Advocacy Center</h1>
           </Col>
         </Row>
@@ -17,6 +18,9 @@ class ColoringBook extends Component {
           <Col className='gamesButton1-row'>
               <h1 style={{ textAlign: 'center' }}>Coloring Book</h1>
               
+=======
+            <h1 style={{ textAlign: 'center' }}>Coloring Book</h1>
+>>>>>>> origin/master
           </Col>
         </Row>
       </Container>

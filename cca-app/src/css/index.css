@@ -27,3 +27,10 @@ code {
   top:0px;
   left:0px;
 }
+
+#house-btn {
+  position: absolute;
+  left: 23px;
+  top: 10px !important;
+  font-size: 50px;
+}
