@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import '../css/buttonbox.css';
 
 /**
  * Component that generates the pretty purple link boxes.
@@ -22,8 +23,8 @@ class ButtonBox extends Component {
 
   render() {
     return (
-      <Container className='wrap'>
-        UR CODE HERE
+      <Container className='wrap purple-box'>
+      beep boop
         {/* Here's how to make a link to another component*/}
         <Link to='/${this.state.url}'>{this.state.title}</Link>
       </Container>
@@ -31,4 +32,4 @@ class ButtonBox extends Component {
   }
 }
 
-export default Home;
+export default ButtonBox;

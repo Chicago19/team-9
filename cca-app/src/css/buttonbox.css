@@ -1,0 +1,6 @@
+@import "global.css";
+
+.purple-box{
+	background-color : var(--light-purple);
+	color: var(--lightest-purple);
+}

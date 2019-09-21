@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import ButtonBox from './buttonbox.js';
 
 class Home extends Component {
 
@@ -12,7 +13,7 @@ class Home extends Component {
           </Col>
         </Row>
         <Row className='button-row'>
-          
+          <ButtonBox url='home' title='Home'/>
         </Row>
       </Container>
     );
