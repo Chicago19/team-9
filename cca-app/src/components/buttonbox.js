@@ -5,6 +5,14 @@ import '../css/buttonbox.css';
 import { faCalendarAlt, faChild, faUserFriends, faGamepad } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+let map = {
+  "gamepad":faGamepad,
+  "calendar": faCalendarAlt,
+  "parents":faUserFriends,
+  "child":faChild,
+  "null":null
+}
+
 /**
  * Component that generates the pretty purple link boxes.
  *
@@ -16,13 +24,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 class ButtonBox extends Component {
 
   render() {
+    console.log(this.props.icon)
     let linkFront = this.props.url.substring(0, 4);
     return (
       <Container className='wrap purple-box shadow'>
         <span className='button-text'>
         <span> {this.props.title}</span>
         <span className = 'icon-settings'>
-          <div><FontAwesomeIcon icon={this.props.icon === 'gamepad' ? faGamepad : this.props.icon === 'calendar' ? faCalendarAlt : this.props.icon === 'child' ? faChild : this.props.icons === 'parents' ? faUserFriends : null} /></div></span></span>
+          <div><FontAwesomeIcon icon={map[this.props.icon]} /></div></span></span>
           { linkFront === 'http' ? (
             <a href={this.props.url} />
           ) : (

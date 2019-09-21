@@ -16,7 +16,7 @@ class ParentsHome extends Component {
         </Row>
         <Row className='button-row' sm={{ size: 8, offset: 2 }}>
           <Col className='stress-row'>
-            <ButtonBox url='stress' title='Understanding Child Traumatic Stress'/>
+            <ButtonBox url='stress' title='Understanding Child Traumatic Stress' icon='null'/>
           </Col>
           <Col className='police-row'>
             <ButtonBox url='police' title='Steps to File a Police Report'/>
