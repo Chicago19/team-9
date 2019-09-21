@@ -1,22 +1,25 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import ButtonBox from '../buttonbox.js';
+import '../../css/home.css';
+
 
 class ChildrenGames2 extends Component {
 
   render() {
     return (
-      <Container>
-        <Row className='title-row'>
+      <Container fluid style={{ height: '100vh' }}>
+        <Row id='title-row'>
           <Col sm={{ size: 8, offset: 2 }}>
-            <h1 style={{ textAlign: 'center' }}>Chicago Children's Advocacy Center</h1>
+            <h1 className='cca-head'>Chicago Children's Advocacy Center</h1>
           </Col>
         </Row>
-        <Row className='title-row'>
+        <Row className='button-row'>
           <Col className='gamesButton1-row'>
-              <h1 style={{ textAlign: 'center' }}>Sliding Puzzle</h1>
+              <ButtonBox url='https://gamescene.com/iphonegames/SlidingPuzzle.html' title='Sliding Puzzle' icon = 'gamepad'/>
           </Col>
           <Col className='gamesButton2-row'>
-              <h1 style={{ textAlign: 'center' }}>Minesweeper</h1>
+              <ButtonBox url='https://gamescene.com/iphonegames/Minesweeper.html' title='Minesweeper' icon = 'gamepad'/>
           </Col>
         </Row>
       </Container>
