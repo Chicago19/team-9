@@ -4,10 +4,14 @@
   "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^3.1.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.24",
+    "@fortawesome/free-solid-svg-icons": "^5.11.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "apollo-cache-inmemory": "^1.6.3",
     "apollo-client": "^2.6.4",
     "apollo-link-http": "^1.5.16",
     "apollo-server": "^2.9.3",
+    "babel-loader": "8.0.6",
     "babel-preset-react-app": "^7.0.0",
     "graphql": "^14.5.7",
     "graphql-tag": "^2.10.1",
@@ -38,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.1"
   }
 }
