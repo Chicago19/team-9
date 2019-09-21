@@ -35,14 +35,14 @@ const events = [
           "location": "Library",
           "date": "10/30/19-10/31/19"
       },
-      {
-        "name": "Homework Session",
-        "description": "Pulling an all-nighter to finish my CS project.",
-        "startTime": "9:00pm",
-        "endTime": "8:00am",
-        "location": "Library",
-        "date": "11/10/19-11/11/19"
-    },
+    //   {
+    //     "name": "Homework Session",
+    //     "description": "Pulling an all-nighter to finish my CS project.",
+    //     "startTime": "9:00pm",
+    //     "endTime": "8:00am",
+    //     "location": "Library",
+    //     "date": "11/10/19-11/11/19"
+    // },
     // {
     //     "name": "Homework Session",
     //     "description": "Pulling an all-nighter to finish my CS project.",
@@ -67,14 +67,14 @@ const events = [
     //     "location": "Library",
     //     "date": "12/2/19-12/3/19"
     // },
-    //   {
-    //     "name": "Gingerbread House Making",
-    //     "description": "Come join us to make gingerbread houses and meet new people!",
-    //     "startTime": "6:00pm",
-    //     "endTime": "10:00pm",
-    //     "location": "My House",
-    //     "date": "12/20/19"
-    //   },
+      {
+        "name": "Gingerbread House Making",
+        "description": "Come join us to make gingerbread houses and meet new people!",
+        "startTime": "6:00pm",
+        "endTime": "10:00pm",
+        "location": "My House",
+        "date": "12/20/19"
+      },
   ];
 
 function Calendar() {
