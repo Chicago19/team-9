@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-class ChildrenHome extends Component {
+class ColoringBook extends Component {
 
   render() {
     return (
@@ -11,15 +11,9 @@ class ChildrenHome extends Component {
             <h1 style={{ textAlign: 'center' }}>Chicago Children's Advocacy Center</h1>
           </Col>
         </Row>
-        <Row className='Button-row'>
+        <Row className='title-row'>
           <Col sm={{ size: 4, offset: 4 }}>
-            <Row className='gamesButton1-row'>
-              <h1 style={{ textAlign: 'center' }}>Games for 3-8</h1>
-            </Row>
-            <Row className='gamesButton2-row'>
-              <h1 style={{ textAlign: 'center' }}>Games for 9-17</h1>
-            </Row>
-            <Row className='coloringBookButton-row'>
+            <Row className='gamesButton-row'>
               <h1 style={{ textAlign: 'center' }}>Coloring Book</h1>
             </Row>
           </Col>
@@ -29,4 +23,4 @@ class ChildrenHome extends Component {
   }
 }
 
-export default ChildrenHome;
+export default ColoringBook;
