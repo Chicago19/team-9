@@ -16,19 +16,19 @@ class ParentsHome extends Component {
         </Row>
         <Row className='button-row' sm={{ size: 8, offset: 2 }}>
           <Col className='stress-row'>
-            <ButtonBox url='stress' title='Understanding Child Traumatic Stress' icon = 'gamepad'/>
+            <ButtonBox url='stress' title='Understanding Child Traumatic Stress'/>
           </Col>
           <Col className='police-row'>
-            <ButtonBox url='police' title='Steps to File a Police Report' icon = 'gamepad'/>
+            <ButtonBox url='police' title='Steps to File a Police Report'/>
           </Col>
           <Col className='faq-row'>
-            <ButtonBox url='faq' title='FAQ' icon = 'gamepad'/>
+            <ButtonBox url='faq' title='FAQ'/>
           </Col>
           <Col className='forms-row'>
-            <ButtonBox url='forms' title='Applications and Forms' icon = 'gamepad'/>
+            <ButtonBox url='forms' title='Referrals'/>
           </Col>
           <Col className='bullying-row'>
-            <ButtonBox url='bullying' title='Cyber Bullying' icon = 'gamepad'/>
+            <ButtonBox url='bullying' title='Cyber Bullying'/>
           </Col>
         </Row>
       </Container>
