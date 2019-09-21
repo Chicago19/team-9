@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Table } from 'reactstrap';
+import '../css/global.css';
 // import { useQuery } from '@apollo/react-hooks';
 // import gql from 'graphql-tag';
 //import events from './../event.json';
@@ -85,13 +86,14 @@ function Calendar() {
             <h1 className='calendar-head'>Check Out Our Events!</h1>
           </Col>
         </Row>
-        <Table striped bordered hover>
+        <Table striped bordered hover className='table' style={{backgroundColor: '#D9CDE4'}}>
             <thead>
                 <tr> 
                     <th>Event</th>
+                    <th>Description</th>
+                    <th>Location</th>
                     <th>Date</th>
                     <th>Time</th>
-                    <th>Location</th>
                 </tr>
             </thead>
             <tbody>
@@ -99,6 +101,7 @@ function Calendar() {
                     <td>{event.name}</td>
                     <td>{event.description}</td>
                     <td>{event.location}</td>
+                    <td>{event.date}</td>
                     <td>{event.startTime} - {event.endTime}</td>
                 </tr>))}
             </tbody>
