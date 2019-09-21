@@ -15,8 +15,20 @@ class ParentsHome extends Component {
           </Col>
         </Row>
         <Row className='button-row' sm={{ size: 8, offset: 2 }}>
-          <Col className='gamesButton1-row'>
-            <ButtonBox url='childrenGames1' title='Games for 3-8' icon = 'gamepad'/>
+          <Col className='stress-row'>
+            <ButtonBox url='stress' title='Understanding Child Traumatic Stress' icon = 'gamepad'/>
+          </Col>
+          <Col className='police-row'>
+            <ButtonBox url='police' title='Steps to File a Police Report' icon = 'gamepad'/>
+          </Col>
+          <Col className='faq-row'>
+            <ButtonBox url='faq' title='FAQ' icon = 'gamepad'/>
+          </Col>
+          <Col className='forms-row'>
+            <ButtonBox url='forms' title='Applications and Forms' icon = 'gamepad'/>
+          </Col>
+          <Col className='bullying-row'>
+            <ButtonBox url='bullying' title='Cyber Bullying' icon = 'gamepad'/>
           </Col>
         </Row>
       </Container>
