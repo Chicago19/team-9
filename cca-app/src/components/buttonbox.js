@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import '../css/buttonbox.css';
 import { faCalendarAlt,faChild,faUserFriends } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 /**
  * Component that generates the pretty purple link boxes.
  *
@@ -17,11 +18,15 @@ class ButtonBox extends Component {
   render() {
     return (
       <Container className='wrap purple-box'>
-      <span className='button-text'>
+        <span className='button-text'>
         <span> {this.props.title}</span>
         <span className = 'icon-settings'>
           <div><FontAwesomeIcon size={70} icon={this.props.icon === 'calendar' ? faCalendarAlt : this.props.icon === 'child' ? faChild : faUserFriends} /></div></span></span>
-        <Link to={'/' + this.props.url}></Link>
+        { if (this.props.external) {
+          <a href={this.props.url}
+        } else {
+          <Link to={'/' + this.props.url}></Link>
+        }}
       </Container>
     );
   }
