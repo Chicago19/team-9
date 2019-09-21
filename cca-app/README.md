@@ -2,5 +2,5 @@
 This is the ReactJS project repository for the CCA Waiting Room Application.
 
 ### Start Up
-First time: npm install
-Every tiem: yarn start
+First time: npm install\
+Every time: yarn start
