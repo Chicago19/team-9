@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Router, Route, Switch } from "react-router";
 
 function App() {
   return (
-    <div>
-    </div>
+    <Router>
+      <Switch>
+        {/*<Route exact path="/" component={Home}></Route>*/}
+      </Switch>
+    </Router>
   );
 }
 
