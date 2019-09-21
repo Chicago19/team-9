@@ -10,83 +10,18 @@ class Police extends Component {
     return (
       <Container fluid style={{ height: '100vh' }}>
         <Row id='title-row'>
-          <Col sm={{ size: 8, offset: 2 }}>
+          <Col sm={{ size: 15, offset: 2 }}>
             <h1 className='cca-head'>Steps to File a Police Report</h1>
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
-          <Col className='h2-col'>
-            <h2>Child Traumatic Stress</h2>
+        <Row sm={{ size: 15, offset: 2 }}>
+          <Col className='h3-col'>
+            <h3>• In person, at Central Police Headquarters, 3510 S. Michigan, 1st Floor, Room 1043, with payment of applicable fees as designated below. By mail, Addressed to: Chicago Police Department, Records Inquiry and Customer Serice Section, Unit 163, 3510 S. Michigan Avenue. Chicago, IL 60653
+			</h3>
             <h3>
-              Child traumatic stress is when children and adolescents are exposed to traumatic events or traumatic situations, and when this exposure overwhelms their ability to cope.
+              • Please be sure to include the following information: The victim or reporting the name and address; The type of location of incident; The RD number (a report number given by the Police).
             </h3>
-            <h3>
-              When children are exposed to situations where they feared for their lives, believed they could have been injured, witnessed violence, or tragically lost a loved one, they may show signs of traumatic stress.
-            </h3>
-            <br></br>
-          </Col>
-        </Row>
-
-        <Row sm={{ size: 8, offset: 2 }}>
-          <Col className='h2-col'>
-            <h2>Signs of Traumatic Stress</h2>
-            <h3>
-              Difficulty sleeping and nightmares
-            </h3>
-            <h3>
-              Refusing to go to school
-            </h3>
-            <h3>
-              Lack of appetite
-            </h3>
-            <h3>
-              Anger
-            </h3>
-            <h3>
-              Getting into fights at school or fighting with siblings
-            </h3>
-            <h3>
-              Nervousness
-            </h3>
-            <h3>
-              Play that includes recreating the event
-            </h3>
-            <br></br>
-          </Col>
-        </Row>
-
-        <Row sm={{ size: 8, offset: 2 }}>
-          <Col className='h2-col'>
-            <h2>Child Traumatic Stress</h2>
-            <h3>
-              Child traumatic stress is when children and adolescents are exposed to traumatic events or traumatic situations, and when this exposure overwhelms their ability to cope.
-            </h3>
-            <h3>
-              When children are exposed to situations where they feared for their lives, believed they could have been injured, witnessed violence, or tragically lost a loved one, they may show signs of traumatic stress.
-            </h3>
-            <br></br>
-          </Col>
-        </Row>
-
-        <Row sm={{ size: 8, offset: 2 }}>
-          <Col className='h2-col'>
-            <h2>Treating</h2>
-            <h3>
-              Education about the impact of trauma
-            </h3>
-            <h3>
-              Helping children and their parents establish or reestablish a sense of safety
-            </h3>            
-            <h3>
-              Techniques of dealing with overwhelming emotional reactions            
-            </h3>              
-            <h3>
-              An opportunity to talk about the traumatic experience in a safe, accepting environment
-            </h3>              
-            <h3>
-              Involvement, when possible, of primary caregivers in the healing process
-            </h3>  
             <br></br>
           </Col>
         </Row>
