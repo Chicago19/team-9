@@ -12,7 +12,7 @@ class ChildrenHome extends Component {
           </Col>
         </Row>
         <Row className='title-row'>
-          <Col sm={{ size: 8, offset: 2 }}>
+          <Col sm={{ size: 4, offset: 4 }}>
             <Row className='gamesButton-row'>
               <h1 style={{ textAlign: 'center' }}>Games for 3-5</h1>
             </Row>
