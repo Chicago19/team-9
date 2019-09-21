@@ -1,0 +1,14 @@
+:root {
+    --lightest-purple:#D9CDE4;
+    --light-purple:#946FB2;
+    --shadow-purple:#81639C;
+    --dark-purple: #582684;
+    --light-green: #AAC49A;
+}
+
+/*
+    To use the variable defined colors, follow this example:
+    #foo {
+        color: var(--light-green);
+    }
+*/
