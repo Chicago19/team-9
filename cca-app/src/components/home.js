@@ -10,7 +10,7 @@ class Home extends Component {
       <Container fluid style={{ height: '100vh' }}>
         <Row id='title-row'>
           <Col sm={{ size: 8, offset: 2 }}>
-            <h1 style={{ textAlign: 'center' }}>Chicago Children's Advocacy Center</h1>
+            <h1 className='cca-head'>Chicago Children's Advocacy Center</h1>
           </Col>
         </Row>
         <Row className='button-row'>
