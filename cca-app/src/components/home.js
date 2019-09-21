@@ -6,8 +6,8 @@ class Home extends Component {
 
   render() {
     return (
-      <Container>
-        <Row className='title-row'>
+      <Container fluid style={{ height: '100vh' }}>
+        <Row id='title-row'>
           <Col sm={{ size: 8, offset: 2 }}>
             <h1 style={{ textAlign: 'center' }}>Chicago Children's Advocacy Center</h1>
           </Col>
