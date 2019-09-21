@@ -18,7 +18,7 @@ class ButtonBox extends Component {
   render() {
     let linkFront = this.props.url.substring(0, 4);
     return (
-      <Container className='wrap purple-box'>
+      <Container className='wrap purple-box shadow'>
         <span className='button-text'>
         <span> {this.props.title}</span>
         <span className = 'icon-settings'>
