@@ -31,25 +31,13 @@ class Bullying extends Component {
           <Col className='h2-col'>
             <h2>How It Is Done</h2>
             <h3>
-              Difficulty sleeping and nightmares
+              There are many ways that cyberbullying attacks occur, including posting or forwarding meaning comments, threats, rumors, or lies; exchange of photos with unkind comments; pretending to be someone else; revealing private information about someone without their permission; creating an online group to make fun or exclude someone.
             </h3>
             <h3>
-              Refusing to go to school
+              In many ways cyberbullying can be even worse than bullying
             </h3>
             <h3>
-              Lack of appetite
-            </h3>
-            <h3>
-              Anger
-            </h3>
-            <h3>
-              Getting into fights at school or fighting with siblings
-            </h3>
-            <h3>
-              Nervousness
-            </h3>
-            <h3>
-              Play that includes recreating the event
+              Cyberbullying follows a person home. A cruel text message or post can come at any time. Anything that goes online is instantly exposed to a large audience, and stays online forever.
             </h3>
             <br></br>
           </Col>
@@ -57,12 +45,12 @@ class Bullying extends Component {
 
         <Row sm={{ size: 8, offset: 2 }}>
           <Col className='h2-col'>
-            <h2>Child Traumatic Stress</h2>
+            <h2>Effects of Cyberbullying</h2>
             <h3>
-              Child traumatic stress is when children and adolescents are exposed to traumatic events or traumatic situations, and when this exposure overwhelms their ability to cope.
+              Physical Damage: Target may develop headaches, stomachaches, and sleeplessness
             </h3>
             <h3>
-              When children are exposed to situations where they feared for their lives, believed they could have been injured, witnessed violence, or tragically lost a loved one, they may show signs of traumatic stress.
+              Emotional Damage: Targets may experience anxiety problems or depression. Some targets may even be led to suicide
             </h3>
             <br></br>
           </Col>
@@ -70,21 +58,21 @@ class Bullying extends Component {
 
         <Row sm={{ size: 8, offset: 2 }}>
           <Col className='h2-col'>
-            <h2>Treating</h2>
+            <h2>Signs of Cyberbullying</h2>
             <h3>
-              Education about the impact of trauma
+              Often wanting to stay home from school
             </h3>
             <h3>
-              Helping children and their parents establish or reestablish a sense of safety
+              sadness
             </h3>            
             <h3>
-              Techniques of dealing with overwhelming emotional reactions            
+              spending a lot more or a lot less time online
             </h3>              
             <h3>
-              An opportunity to talk about the traumatic experience in a safe, accepting environment
+              dip in grades
             </h3>              
             <h3>
-              Involvement, when possible, of primary caregivers in the healing process
+              withdrawing from contact with classmates.
             </h3>  
             <br></br>
           </Col>
