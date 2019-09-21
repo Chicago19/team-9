@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Table } from 'reactstrap';
-import '../css/global.css';
+import '../css/calendar.css';
 // import { useQuery } from '@apollo/react-hooks';
 // import gql from 'graphql-tag';
 //import events from './../event.json';
@@ -80,13 +80,14 @@ const events = [
 function Calendar() {
     // const { loading, data } = useQuery(FETCH_EVENTS_QUERY);
     return (
-    <Container>
-        <Row>
+    <Container fluid className='home-container'>
+        <Row id='title-row'>
           <Col sm={{ size: 8, offset: 2 }}>
             <h1 className='calendar-head'>Check Out Our Events!</h1>
           </Col>
         </Row>
-        <Table striped bordered hover className='table' style={{backgroundColor: '#D9CDE4'}}>
+        <Row id='table-row'>
+        <Table striped bordered hover className='table' style={{backgroundColor: '#D9CDE4', marginTop: 30}}>
             <thead>
                 <tr> 
                     <th>Event</th>
@@ -106,6 +107,7 @@ function Calendar() {
                 </tr>))}
             </tbody>
             </Table>
+            </Row>
       </Container>
     );
 }
