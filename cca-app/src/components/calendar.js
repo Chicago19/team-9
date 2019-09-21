@@ -20,11 +20,11 @@ const events = [
         "date": "09/20/21-09/21/19"
       },
       {
-        "name": "My Birthday Party",
+        "name": "Center's Birthday Party",
         "description": "I turn 21!",
         "startTime": "6:00pm",
         "endTime": "11:00pm",
-        "location": "My House",
+        "location": "Center",
         "date": "10/25/19"
       },
       {
@@ -43,38 +43,38 @@ const events = [
         "location": "Library",
         "date": "11/10/19-11/11/19"
     },
-    {
-        "name": "Homework Session",
-        "description": "Pulling an all-nighter to finish my CS project.",
-        "startTime": "9:00pm",
-        "endTime": "8:00am",
-        "location": "Library",
-        "date": "11/15/19-11/16/19"
-    },
-    {
-        "name": "Homework Session",
-        "description": "Pulling an all-nighter to finish my CS project.",
-        "startTime": "9:00pm",
-        "endTime": "8:00am",
-        "location": "Library",
-        "date": "11/23/19-11/24/19"
-    },
-    {
-        "name": "Homework Session",
-        "description": "Pulling an all-nighter to finish study for my math midterm.",
-        "startTime": "9:00pm",
-        "endTime": "8:00am",
-        "location": "Library",
-        "date": "12/2/19-12/3/19"
-    },
-      {
-        "name": "Gingerbread House Making",
-        "description": "Come join us to make gingerbread houses and meet new people!",
-        "startTime": "6:00pm",
-        "endTime": "10:00pm",
-        "location": "My House",
-        "date": "12/20/19"
-      },
+    // {
+    //     "name": "Homework Session",
+    //     "description": "Pulling an all-nighter to finish my CS project.",
+    //     "startTime": "9:00pm",
+    //     "endTime": "8:00am",
+    //     "location": "Library",
+    //     "date": "11/15/19-11/16/19"
+    // },
+    // {
+    //     "name": "Homework Session",
+    //     "description": "Pulling an all-nighter to finish my CS project.",
+    //     "startTime": "9:00pm",
+    //     "endTime": "8:00am",
+    //     "location": "Library",
+    //     "date": "11/23/19-11/24/19"
+    // },
+    // {
+    //     "name": "Homework Session",
+    //     "description": "Pulling an all-nighter to finish study for my math midterm.",
+    //     "startTime": "9:00pm",
+    //     "endTime": "8:00am",
+    //     "location": "Library",
+    //     "date": "12/2/19-12/3/19"
+    // },
+    //   {
+    //     "name": "Gingerbread House Making",
+    //     "description": "Come join us to make gingerbread houses and meet new people!",
+    //     "startTime": "6:00pm",
+    //     "endTime": "10:00pm",
+    //     "location": "My House",
+    //     "date": "12/20/19"
+    //   },
   ];
 
 function Calendar() {
