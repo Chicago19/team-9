@@ -17,20 +17,19 @@ class Bullying extends Component {
 
         <Row sm={{ size: 8, offset: 2 }}>
           <Col className='h2-col'>
-            <h2>Child Traumatic Stress</h2>
+            <h2>What is Cyberbullying?</h2>
             <h3>
-              Child traumatic stress is when children and adolescents are exposed to traumatic events or traumatic situations, and when this exposure overwhelms their ability to cope.
+              Cyberbullying is the use of technology (such as computers, cell phones, and other electronic devices) to harass or humiliate someone
             </h3>
             <h3>
-              When children are exposed to situations where they feared for their lives, believed they could have been injured, witnessed violence, or tragically lost a loved one, they may show signs of traumatic stress.
-            </h3>
+              Cyberbullying usually happens among young people who know each other. It usually occurs through social media (like Instagram and Snapchat), email, text and voice messaging.                  </h3>
             <br></br>
           </Col>
         </Row>
 
         <Row sm={{ size: 8, offset: 2 }}>
           <Col className='h2-col'>
-            <h2>Signs of Traumatic Stress</h2>
+            <h2>How It Is Done</h2>
             <h3>
               Difficulty sleeping and nightmares
             </h3>
