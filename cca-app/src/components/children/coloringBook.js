@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ButtonBox from '../buttonbox.js';
-
+import Codepen from "react-codepen-embed";
 
 class ColoringBook extends Component {
 
@@ -16,6 +16,7 @@ class ColoringBook extends Component {
         <Row className='title-row'>
           <Col className='gamesButton1-row'>
               <h1 style={{ textAlign: 'center' }}>Coloring Book</h1>
+              
           </Col>
         </Row>
       </Container>
