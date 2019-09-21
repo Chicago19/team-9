@@ -22,7 +22,7 @@ class ChildrenHome extends Component {
             <ButtonBox url='childrenGames2' title='Games for 9-17' icon='gamepad'/>
           </Col>
           <Col className='coloringBookButton-row'>
-            <ButtonBox url='https://lol.disney.com/games/coloring-pages/' title='Coloring Book' icon = 'gamepad'/>
+            <ButtonBox url='coloringBook' title='Coloring Book' icon = 'gamepad'/>
           </Col>
         </Row>
       </Container>
