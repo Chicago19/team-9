@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: var(--shadow-purple);
+  color: white;
 }
 
 code {

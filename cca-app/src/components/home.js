@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ButtonBox from './buttonbox.js';
+import '../css/home.css';
 
 class Home extends Component {
 
