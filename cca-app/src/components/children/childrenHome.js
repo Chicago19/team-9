@@ -16,13 +16,13 @@ class ChildrenHome extends Component {
         </Row>
         <Row className='button-row' sm={{ size: 8, offset: 2 }}>
           <Col className='gamesButton1-row'>
-            <ButtonBox url='childrenGames1' title='Games for 3-8' icon = 'gamepad'/>
+            <ButtonBox url='childrenGames1' title='Games for 3-8' icon='gamepad'/>
           </Col>
           <Col className='gamesButton2-row'>
-            <ButtonBox url='childrenGames2' title='Games for 9-17' icon = 'gamepad'/>
+            <ButtonBox url='childrenGames2' title='Games for 9-17' icon='gamepad'/>
           </Col>
           <Col className='coloringBookButton-row'>
-            <ButtonBox url='coloringBook' title='Coloring Book' icon = 'child'/>
+            <ButtonBox url='https://lol.disney.com/games/coloring-pages/' title='Coloring Book' icon = 'gamepad'/>
           </Col>
         </Row>
       </Container>
