@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ButtonBox from '../buttonbox.js';
+import { faLeaf } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../../css/home.css';
 
 
@@ -8,14 +10,17 @@ class Faq extends Component {
 
   render() {
     return (
-      <Container fluid style={{ height: '100vh' }}>
-        <Row id='FAQ'>
+      <Container fluid style={{ height: '100vh', paddingLeft: '40px', paddingRight: '40px' }}>
+        <Row id='title-row'>
           <Col sm={{ size: 8, offset: 2 }}>
             <h1 className='cca-head'>FAQ</h1>
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
+        <Row sm={{ size: 8, offset: 2 }} style={{ marginBottom: '30px' }}>
+        <Col sm='1' style={{ paddingTop: '150px' }}>
+            <span style={{ fontSize: '40px'}}><FontAwesomeIcon icon={faLeaf} /></span>
+          </Col>
           <Col className='h2-col'>
             <h2>Questions About Counseling</h2>
             <h3>
@@ -38,7 +43,10 @@ class Faq extends Component {
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
+        <Row sm={{ size: 8, offset: 2 }} style={{ marginBottom: '30px' }}>
+        <Col sm='1' style={{ paddingTop: '250px' }}>
+            <span style={{ fontSize: '40px'}}><FontAwesomeIcon icon={faLeaf} /></span>
+          </Col>
           <Col className='h2-col'>
             <h2>Questions About Crime Victims Compensation</h2>
             <h3>

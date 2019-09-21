@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ButtonBox from '../buttonbox.js';
+import { faLeaf } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../../css/home.css';
 
 
@@ -8,14 +10,17 @@ class Bullying extends Component {
 
   render() {
     return (
-      <Container fluid style={{ height: '100vh' }}>
-        <Row id='title-row'>
+      <Container fluid style={{ height: '100vh', paddingLeft: '40px', paddingRight: '40px' }}>
+        <Row id='title-row' style={{ marginBottom: '30px' }}>
           <Col sm={{ size: 8, offset: 2 }}>
             <h1 className='cca-head'>Cyber Bullying</h1>
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
+        <Row sm={{ size: 8, offset: 2 }} style={{ marginBottom: '30px' }}>
+        <Col sm='1' style={{ paddingTop: '40px' }}>
+            <span style={{ fontSize: '40px'}}><FontAwesomeIcon icon={faLeaf} /></span>
+          </Col>
           <Col className='h2-col'>
             <h2>What is Cyberbullying?</h2>
             <h3>
@@ -27,7 +32,10 @@ class Bullying extends Component {
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
+        <Row sm={{ size: 8, offset: 2 }} style={{ marginBottom: '30px' }}>
+        <Col sm='1' style={{ paddingTop: '40px' }}>
+            <span style={{ fontSize: '40px'}}><FontAwesomeIcon icon={faLeaf} /></span>
+          </Col>
           <Col className='h2-col'>
             <h2>How It Is Done</h2>
             <h3>
@@ -43,7 +51,10 @@ class Bullying extends Component {
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
+        <Row sm={{ size: 8, offset: 2 }} style={{ marginBottom: '30px' }}>
+        <Col sm='1' style={{ paddingTop: '40px' }}>
+            <span style={{ fontSize: '40px'}}><FontAwesomeIcon icon={faLeaf} /></span>
+          </Col>
           <Col className='h2-col'>
             <h2>Effects of Cyberbullying</h2>
             <h3>
@@ -56,7 +67,10 @@ class Bullying extends Component {
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
+        <Row sm={{ size: 8, offset: 2 }} style={{ marginBottom: '30px' }}>
+        <Col sm='1' style={{ paddingTop: '40px' }}>
+            <span style={{ fontSize: '40px'}}><FontAwesomeIcon icon={faLeaf} /></span>
+          </Col>
           <Col className='h2-col'>
             <h2>Signs of Cyberbullying</h2>
             <h3>
