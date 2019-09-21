@@ -8,6 +8,7 @@
 	max-width: 300px;
 	min-height: 300px;
 	font-size: 20px;
+	border: solid 1px var(--shadow-purple);
 }
 
 .button-text{
