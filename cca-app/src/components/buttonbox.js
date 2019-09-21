@@ -22,7 +22,7 @@ class ButtonBox extends Component {
 
   render() {
     return (
-      <Container>
+      <Container className='wrap'>
         UR CODE HERE
         {/* Here's how to make a link to another component*/}
         <Link to='/${this.state.url}'>{this.state.title}</Link>

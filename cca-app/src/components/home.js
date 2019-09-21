@@ -12,7 +12,7 @@ class Home extends Component {
           </Col>
         </Row>
         <Row className='button-row'>
-
+          
         </Row>
       </Container>
     );
