@@ -13,7 +13,9 @@ class Home extends Component {
           </Col>
         </Row>
         <Row className='button-row'>
-          <ButtonBox url='home' title='Home'/>
+          <ButtonBox url='home' title='Children' icon = 'child'/>
+          <ButtonBox url='home' title='Parents' icon = 'parents'/>
+          <ButtonBox url='home' title='Calendar' icon = 'calendar'/>
         </Row>
       </Container>
     );

@@ -2,5 +2,24 @@
 
 .purple-box{
 	background-color : var(--light-purple);
-	color: var(--lightest-purple);
+	/*color: var(--lightest-purple);*/
+	color: white;
+	text-align: center;
+	max-width: 300px;
+	min-height: 300px;
+	font-size: 20px;
+}
+
+.button-text{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.icon-settings{
+	font-size:80px;
+	line-height: 1.5px;
 }
