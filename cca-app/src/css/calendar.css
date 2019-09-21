@@ -1,0 +1,7 @@
+@import "global.css";
+
+.calendar-head {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Boogaloo', cursive;
+  }
