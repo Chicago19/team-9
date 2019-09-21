@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import '../css/buttonbox.css';
-import { faCalendarAlt,faChild,faUserFriends } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarAlt,faChild,faUserFriends, faGamepad } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 /**
@@ -16,17 +16,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 class ButtonBox extends Component {
 
   render() {
+    let linkFront = this.props.url.substring(0, 4);
     return (
       <Container className='wrap purple-box'>
         <span className='button-text'>
         <span> {this.props.title}</span>
         <span className = 'icon-settings'>
           <div><FontAwesomeIcon size={70} icon={this.props.icon === 'calendar' ? faCalendarAlt : this.props.icon === 'child' ? faChild : faUserFriends} /></div></span></span>
-        { if (this.props.external) {
-          <a href={this.props.url}
-        } else {
-          <Link to={'/' + this.props.url}></Link>
-        }}
+          { linkFront === 'http' ? (
+            <a href={this.props.url} />
+          ) : (
+            <Link to={'/' + this.props.url} />
+          )}
       </Container>
     );
   }
