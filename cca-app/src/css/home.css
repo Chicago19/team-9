@@ -3,5 +3,11 @@
 }
 
 .button-row {
-  margin-top: 40px;
+  margin-top: 35px;
+}
+
+.cca-head {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Boogaloo', cursive;
 }
