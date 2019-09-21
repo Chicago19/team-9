@@ -5,13 +5,14 @@ import ChildrenHome from './components/children/childrenHome.js';
 import ChildrenGames1 from './components/children/childrenGames1.js';
 import ChildrenGames2 from './components/children/childrenGames2.js';
 import ParentsHome from './components/parents/parentsHome.js';
-import Calendar from './components/calendar.js'
-
+import Calendar from './components/calendar.js';
+import HomeGuide from './components/homeguide.js';
 
 
 function App() {
   return (
     <BrowserRouter>
+      <HomeGuide />
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/children" component={ChildrenHome}/>
