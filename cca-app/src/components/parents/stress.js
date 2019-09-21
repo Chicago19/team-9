@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ButtonBox from '../buttonbox.js';
+import { faLeaf } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../../css/home.css';
 
 
@@ -8,15 +10,19 @@ class Stress extends Component {
 
   render() {
     return (
-      <Container fluid style={{ height: '100vh' }}>
-        <Row id='title-row'>
+      <Container fluid style={{ height: '100vh', paddingLeft: '40px', paddingRight: '40px' }}>
+        <Row id='title-row' style={{ marginBottom: '30px' }}>
           <Col sm={{ size: 8, offset: 2 }}>
             <h1 className='cca-head'>Understanding Child Traumatic Stress</h1>
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
-          <Col className='h2-col'>
+        <Row sm={{ size: 8, offset: 2 }} style={{ marginBottom: '30px' }}>
+          <Col sm='1' style={{ paddingTop: '40px' }}>
+            <span style={{ fontSize: '40px'}}><FontAwesomeIcon icon={faLeaf} /></span>
+          </Col>
+          <Col>
+          <div>
             <h2>Child Traumatic Stress</h2>
             <h3>
               • Child traumatic stress is when children and adolescents are exposed to traumatic events or traumatic situations, and when this exposure overwhelms their ability to cope.
@@ -25,11 +31,15 @@ class Stress extends Component {
               • When children are exposed to situations where they feared for their lives, believed they could have been injured, witnessed violence, or tragically lost a loved one, they may show signs of traumatic stress.
             </h3>
             <br></br>
+            </div>
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
-          <Col className='h2-col'>
+        <Row sm={{ size: 8, offset: 2 }} style={{ marginBottom: '30px' }}>
+          <Col sm='1' style={{ paddingTop: '60px' }}>
+            <span style={{ fontSize: '40px' }}><FontAwesomeIcon icon={faLeaf} /></span>
+          </Col>
+          <Col sm='5'>
             <h2>Signs of Traumatic Stress</h2>
             <h3>
               • Difficulty sleeping and nightmares
@@ -43,6 +53,10 @@ class Stress extends Component {
             <h3>
               • Anger
             </h3>
+            </Col>
+            <Col sm='5'>
+              <br />
+              <br />
             <h3>
               • Getting into fights at school or fighting with siblings
             </h3>
@@ -56,8 +70,11 @@ class Stress extends Component {
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
-          <Col className='h2-col'>
+        <Row sm={{ size: 8, offset: 2 }} style={{ marginBottom: '30px' }}>
+          <Col sm='1' style={{ paddingTop: '70px' }}>
+            <span style={{ fontSize: '40px' }}><FontAwesomeIcon icon={faLeaf} /></span>
+          </Col>
+          <Col>
             <h2>Treating</h2>
             <h3>
               • Education about the impact of trauma
@@ -78,8 +95,11 @@ class Stress extends Component {
           </Col>
         </Row>
 
-        <Row sm={{ size: 8, offset: 2 }}>
-          <Col className='h2-col'>
+        <Row sm={{ size: 8, offset: 2 }} style={{ marginBottom: '30px' }}>
+          <Col sm='1' style={{ paddingTop: '20px' }}>
+            <span style={{ fontSize: '40px'}}><FontAwesomeIcon icon={faLeaf} /></span>
+          </Col>
+          <Col>
             <h2>What You Can Do For Your Child</h2>
             <h3>
               • Parents never want their child to go through trauma or suffer its after effects

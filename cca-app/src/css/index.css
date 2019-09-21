@@ -34,3 +34,7 @@ code {
   top: 10px !important;
   font-size: 50px;
 }
+
+.h2-box {
+  background-color: var(--lightest-purple)
+}

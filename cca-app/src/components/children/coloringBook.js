@@ -15,7 +15,7 @@ class ColoringBook extends Component {
             <h1 className='cca-head'>Coloring Book</h1>
           </Col>
         </Row>
-      	<Codepen
+      	<Codepen style={{ height: '50%' }}
 		  hash="yLBGYKZ"
 		  user="zmwang622"
 		  loader={() => <div>Loading...</div>}
