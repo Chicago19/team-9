@@ -12,10 +12,11 @@ class ChildrenGames1 extends Component {
           </Col>
         </Row>
         <Row className='title-row'>
-          <Col sm={{ size: 4, offset: 4 }}>
-            <Row className='gamesButton-row'>
-              <h1 style={{ textAlign: 'center' }}>Rock Paper Scissors</h1>
-            </Row>
+          <Col className='ChickenandEggs-row'>
+              <h1 style={{ textAlign: 'center' }} href='https://gamescene.com/iphonegames/ChickenAndEggs.html'>Chicken and Eggs</h1>
+          </Col>
+          <Col className='MatchThree-row'>
+              <h1 style={{ textAlign: 'center' }} href='https://gamescene.com/iphonegames/MatchThree.html'>Match Three</h1>
           </Col>
         </Row>
       </Container>

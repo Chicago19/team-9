@@ -12,10 +12,11 @@ class ChildrenGames2 extends Component {
           </Col>
         </Row>
         <Row className='title-row'>
-          <Col sm={{ size: 4, offset: 4 }}>
-            <Row className='gamesButton-row'>
-              <h1 style={{ textAlign: 'center' }}>Rock Paper Scissors 2</h1>
-            </Row>
+          <Col className='gamesButton1-row'>
+              <h1 style={{ textAlign: 'center' }}>Sliding Puzzle</h1>
+          </Col>
+          <Col className='gamesButton2-row'>
+              <h1 style={{ textAlign: 'center' }}>Minesweeper</h1>
           </Col>
         </Row>
       </Container>
