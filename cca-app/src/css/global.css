@@ -5,10 +5,3 @@
     --dark-purple: #582684;
     --light-green: #AAC49A;
 }
-
-/*
-    To use the variable defined colors, follow this example:
-    #foo {
-        color: var(--light-green);
-    }
-*/
