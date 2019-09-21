@@ -1,0 +1,21 @@
+import React, { Component } from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import ButtonBox from '../buttonbox.js';
+
+
+class ColoringBook extends Component {
+
+  render() {
+    return (
+      <Container>
+        <Row className='title-row'>
+          <Col sm={{ size: 8, offset: 2 }}>
+            <h1 style={{ textAlign: 'center' }}>Coloring Book</h1>
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
+}
+
+export default ColoringBook;

@@ -11,7 +11,7 @@ class ChildrenGames1 extends Component {
       <Container fluid style={{ height: '100vh' }}>
         <Row id='title-row'>
           <Col sm={{ size: 8, offset: 2 }}>
-            <h1 className='cca-head'>Chicago Children's Advocacy Center</h1>
+            <h1 className='cca-head'>Games</h1>
           </Col>
         </Row>
         <Row className='button-row'>
