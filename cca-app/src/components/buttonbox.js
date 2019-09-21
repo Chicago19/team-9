@@ -20,7 +20,7 @@ class ButtonBox extends Component {
       <span className='button-text'>
         <span> {this.props.title}</span>
         <span className = 'icon-settings'>
-          <div><FontAwesomeIcon size={70} icon={this.props.icon === 'calendar' ? faCalendarAlt : this.props.icon === 'child' ? faChild : this.props.icon === 'gamepad' ? faGamepad : faUserFriends} /></div></span></span>
+          <div><FontAwesomeIcon icon={this.props.icon === 'calendar' ? faCalendarAlt : this.props.icon === 'child' ? faChild : this.props.icon === 'gamepad' ? faGamepad : faUserFriends} /></div></span></span>
         <Link to={'/' + this.props.url}></Link>
       </Container>
     );
