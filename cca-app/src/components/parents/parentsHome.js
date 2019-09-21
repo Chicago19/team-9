@@ -30,6 +30,9 @@ class ParentsHome extends Component {
           <Col className='bullying-row'>
             <ButtonBox url='bullying' title='Cyber Bullying' icon = 'gamepad'/>
           </Col>
+          <Col className='survey-row'>
+            <ButtonBox url='survey' title='Survey' icon = 'gamepad'/>
+          </Col>
         </Row>
       </Container>
     );
