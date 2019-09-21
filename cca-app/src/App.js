@@ -6,6 +6,7 @@ import ChildrenGames1 from './components/children/childrenGames1.js';
 import ChildrenGames2 from './components/children/childrenGames2.js';
 import ColoringBook from './components/children/coloringBook.js';
 import ParentsHome from './components/parents/parentsHome.js';
+import Calendar from './components/calendar.js'
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/childrenGames2" component={ChildrenGames2}/>
         <Route exact path="/coloringBook" component={ColoringBook}/>
         <Route exact path="/parents" component={ParentsHome}/>
+        <Route exact path="/calendar" component={Calendar}/>
       </Switch>
     </BrowserRouter>
   );
