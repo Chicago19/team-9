@@ -9,11 +9,11 @@ class Home extends Component {
       <Container>
         <Row className='title-row'>
           <Col sm={{ size: 8, offset: 2 }}>
-            <h1 style={{ textAlign: 'center' }}>Chicago Children's Advocacy Center</h1>                                     
+            <h1 style={{ textAlign: 'center' }}>Chicago Children's Advocacy Center</h1>
           </Col>
         </Row>
         <Row className='button-row'>
-          <ButtonBox url='home' title='Homes'/>
+          <ButtonBox url='home' title='Home'/>
         </Row>
       </Container>
     );

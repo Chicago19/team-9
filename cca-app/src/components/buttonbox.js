@@ -23,7 +23,7 @@ class ButtonBox extends Component {
 
   render() {
     return (
-      <Container className='purple-box'>
+      <Container className='wrap purple-box'>
       beep boop
         {/* Here's how to make a link to another component*/}
         <Link to='/${this.state.url}'>{this.state.title}</Link>
